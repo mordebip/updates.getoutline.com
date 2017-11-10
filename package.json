@@ -1,0 +1,12 @@
+{
+  "name": "analytics.getoutline.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro"
+  },
+  "dependencies": {
+    "micro": "^9.0.1"
+  }
+}
