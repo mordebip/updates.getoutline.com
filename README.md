@@ -2,7 +2,7 @@
 
 Simple `micro` service for collecting Outline analytics and serving updates.
 
-Soft notification format: 
+Soft notification format:
 
 ```json
 {
@@ -21,3 +21,11 @@ A must upgrade:
   "url": "https://github.com/outline/outline"
 }
 ```
+
+## Installation
+
+This service has no dependencies.
+
+1. Copy the file `.env.sample` to `.env` and fill out the Google Analytics ID.
+1. Run `yarn install`. This will download dependencies
+1. Run `yarn start`.
